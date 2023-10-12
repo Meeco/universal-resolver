@@ -280,4 +280,8 @@ services:
     image: gleif/did-webs-resolver-service:latest
     ports:
       - "8147:7677"
+  driver-did-hedera:
+     image: meeco/uni-resolver-driver-did-hedera:latest
+     ports:
+      - "8147:8081"
 
