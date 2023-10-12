@@ -283,5 +283,4 @@ services:
   driver-did-hedera:
      image: meeco/uni-resolver-driver-did-hedera:latest
      ports:
-      - "8147:8081"
-
+      - "8148:8081"
